@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #212121;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <image x="8" y="8" width="84" height="84" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAE4ElEQVR4nO2d3W3bMBDHz05Q9Kmw0Q5gThB3gjgbJBPEniDOBEkf82RnAjsTJBvEnaDJBNJbn4oKfSzapqBxNGhZMj/uqC/rDyiRA5i8++V4pEhK6kBFJIQYAIA8RmjRqcGyr/h7BQBxFEVxFTwxAhVChKp7CADnCE6e94jlJQDwgqCf8DyooijaKb5ooDL6LhEkFaBJCYJ9wChmVxbQbmCnAMFNZf0A8AwA4wJgqnrHWGeENgSvNyRQafwtOjPD/FiWBmhDhDYFAxsKqAJ5U1A02qqHNimw7NrKoQz5UubIRcnR6CI5Mpj45tiQObSHIJ9rBBPQ1mdMBywtiQOoHPJ8ww6grpqiD0Oq/dQmP8bIbJJkCli6+qOaPyVCZw2ECejTzPfLvkAX2EyaqqlvsByDe1Nf1Dxf2kr5OHH5kmuElgWzY3OZHEDOfYQL0FmBMDupw/T3kBq75FRboOMCcqYPqKLgTm2DyQboMGBvzgkkNNyFzTjVBFRePTzy2bRR6KgKVf6j6YrKBPQmwKVkkZ0Ld10DZJKrfUBHzHmzrJ6au96ptkyzo31AOfNmFdauOG3IZZMH9JaxqVdmIZDRlkHefGoWUJl0rxgqLauJm8Rl11VWB5UFtJC1lwaol9XHpIFyRmfVFSRK00A5ViTrAFOJamsvfQWVBkqNzjrBVKLavMVMBzqq2XpQVaRvH9oCekk0sI7RqUS1fcNOB3peokFVEMWHDTsFlGOz1iGrJ4QY6kAPPTqVyFGqgJr2YrYy6xRSTb4VTWuGHdw5vLtJx05Nau663jy/J7rt2JNVg+6+ydJWzhpRtuI0tbkDxbdu28Oz6qSIPfaHpF4LlFm+QJucP5W8fGwjlFm+QH0HvnWSl49thDKrBcqrpKvd1duKrldKhDY5j3r71g11p+6BatXF2/Na8SheD16FED8Ja0pNG+T7NvckiqK+yqHBn35wAFozVEDbnp6uNUMF9IlQXJN6e4ova4Z6k094bDpIyfy51eShjVJ6dEIK6APNntpB/aidUwNiw04HujqgMeknAHjHVFasXxylLz3viYXXoel/QDu/42eqzVvM0kCXDJ1T1aH+AoAfeE61NUk//SENNGGIUqhJpHLYeJ8OwKzZpnk7hLJSgqy2lAWUM0qrGKlcdu1EJxjupOPq8asElcuW2OVOOiWnZ20YVAWonDbkstkHdJWVIwgqKwVw1zvfNylvWgL5EmCwXyRU7rpiZJIrE1CZdC+YjYICojVU+RemEZDNIt0Lcz7V9cboPGdZWZrYTMTbrnoumfNplnyAhIaoNLd9Hp7LMvK1z0P2PPWWAyvv7yG1RN+tdOxoiGr6RT9drKxh1zL0o9rA93GQNZQzTCDsbZoUkFPL1Ny3I6ZsxbkO2PtzyjVdTFxyZlrU3XeyWXyu2Ey/BPhP+2y7ESNGX0jpjGM74wsaUlYKkAD/4AEI0NWvOfpA3vDBtT80wWZyxjxLJSPtr3ZIaL8zIvDYY8QCaOsZ2s4yB3wkfyRJsjn6/T6lvBjnCTt4M+l7QlkdLdr044hhP5WEd4eXkiwBINlB4DctCJxIqNLsf4I2iVBvWgi5JTzRwF6X3HHFaIMCGeyfvNN0Ar4/Cer8+p+s11RkySoXBYJcqxdUsQItQhmvUDvZA1nCe8Xz6rxCDQD+A2tRHlco7QRQAAAAAElFTkSuQmCC"/>
+  <path class="cls-1" d="M38.5,44h23a6,6,0,0,1,0,12h-23A6,6,0,0,1,38.5,44Z"/>
+</svg>
