@@ -1,5 +1,24 @@
 {
+    "roles": {
+        "donor": {
+            "href": "https://tenor.com/search/soon-gifs",
+            "img": "https://tharki-god.github.io/files-random-host/974748253948108800.webp",
+            "text": "Tharki's Donor"
+        },
+        "queen": {
+            "href": "https://discord.com/users/701424426394320967",
+            "img": "https://tharki-god.github.io/files-random-host/974747511258513488.webp",
+            "text": "Tharki's Queen"
+        },
+        "tharki": {
+            "href": "https://tharki-god.github.io",
+            "img": "https://tharki-god.github.io/files-random-host/944164741763452958.webp",
+            "text": "Tharki"
+        }
+    },
+    "users": {
         "1025214794766221384": "tharki",
-        "701424426394320967": "queen",
-        "1043537734456848476": "donor"
-      }
+        "1043537734456848476": "donor",
+        "701424426394320967": "queen"
+    }
+}
