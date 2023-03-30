@@ -15,41 +15,14 @@
 .edited-1v5nT8:not(.message-translate-indicator) {
   display: none;
 }
+/* edited text */
 
-.privateChannels-oVe7HL [href="/store"] + svg,
-.item-3XjbnG [class*="Promo"],
-.premiumLabel-3HPvdB svg,
-.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
-  display: none;
-}
-.premiumLabel-3HPvdB {
-  color: var(--color-muted);
-}
 
 /* Re-round Spotify Status Images */
 .assetsLargeImageSpotify-17ME3M {
   border-radius: 8px;
 }
-
-/*Home button spin*/
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  20% {
-    transform: rotate(-20deg);
-  }
-  70% {
-    transform: rotate(380deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
-  animation: spin 0.8s ease;
-}
+/* Re-round Spotify Status Images */
 
 /* Better Jump To Present Button */
 [class*="jumpToPresentBar"] {
@@ -121,7 +94,7 @@
 /* Remove CreArts Modal Blur */
 
 /*home button spin*/
-.homeIcon-r0w4ny:hover {
+.childWrapper-1j_1ub:hover .homeIcon-r0w4ny{
   position: relative;
   animation: SpinIcons 2s infinite;
 }
