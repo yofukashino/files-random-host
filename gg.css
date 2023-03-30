@@ -1,0 +1,348 @@
+/* Rounded Context Menu */
+.menu-1QACrS,
+.colorDefault-CDqZdO {
+  border-radius: 15px;
+}
+/* edited text */
+.timestamp-p1Df1m:not(.timestampInline-_lS3aK, .timestampVisibleOnHover-9PEuZS) time::after {
+  content: " (" attr(aria-label) ")";
+  color: var(--text-muted);
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: lowercase;
+}
+.edited-1v5nT8:not(.message-translate-indicator) {
+  display: none;
+}
+
+.privateChannels-oVe7HL [href="/store"] + svg,
+.item-3XjbnG [class*="Promo"],
+.premiumLabel-3HPvdB svg,
+.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
+  display: none;
+}
+.premiumLabel-3HPvdB {
+  color: var(--color-muted);
+}
+
+/* Re-round Spotify Status Images */
+.assetsLargeImageSpotify-17ME3M {
+  border-radius: 8px;
+}
+
+/*Home button spin*/
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-20deg);
+  }
+  70% {
+    transform: rotate(380deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
+  animation: spin 0.8s ease;
+}
+
+/* Better Jump To Present Button */
+[class*="jumpToPresentBar"] {
+  display: contents;
+}
+[class*="jumpToPresentBar"] > button:first-child {
+  display: none;
+}
+[class*="jumpToPresentBar"] > button:last-child {
+  position: absolute;
+  z-index: 1;
+  bottom: 48px;
+  right: 44px;
+  padding: 8px !important;
+  height: auto;
+  background-color: var(--background-primary);
+  box-shadow: var(--elevation-high);
+  border-radius: 100px;
+  display: flex;
+  font-size: 0px;
+  color: transparent;
+  transition: font-size 0.2s 0.1s, color 0.2s, padding 0.4s 0.1s;
+}
+[class*="jumpToPresentBar"] > button svg {
+  order: -1;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
+  top: auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: var(--text-normal);
+  transition: margin 0.6s;
+}
+[class*="jumpToPresentBar"]:hover > button {
+  padding: 8px 18px !important;
+  font-size: 14px;
+  color: var(--text-normal);
+  transition: font-size 0.2s, color 0.2s 0.1s, padding 0.4s;
+}
+[class*="jumpToPresentBar"]:hover > button svg {
+  margin-right: 2px;
+  margin-left: -6px;
+}
+/* Better Jump To Present Button */
+
+/* Pings */
+.numberBadge-2s8kKX {
+  animation: animatedPing 1.3s infinite ease-in-out;
+}
+@keyframes animatedPing {
+  0% {
+    transform: rotate(-12deg);
+  }
+  50% {
+    transform: rotate(12deg) scale(1.2);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+/* Pings */
+
+/* Remove CreArts Modal Blur */
+.backdrop-1wrmKB::before,
+.backdropWithLayer-3_uhz4::before {
+  backdrop-filter: none;
+}
+/* Remove CreArts Modal Blur */
+
+/*home button spin*/
+.homeIcon-r0w4ny:hover {
+  position: relative;
+  animation: SpinIcons 2s infinite;
+}
+@keyframes SpinIcons {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*home button spin*/
+/*Camera unmirror*/
+.mirror-1Z13AJ {
+  transform: none;
+}
+/*Camera unmirror*/
+/* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
+.clamped-IwJfxR {
+  -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+  max-height: 112px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.clamped-IwJfxR::-webkit-scrollbar {
+  width: 15px;
+  height: 15px;
+}
+.clamped-IwJfxR::-webkit-scrollbar-track {
+  border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+  background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+}
+.clamped-IwJfxR::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    45deg,
+    #00aeff,
+    #a68eff
+  ); /* Edit this to whatever color/colors you'd like*/
+  border-radius: 10px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+}
+/* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
+
+/*Hide vc action buttons hover*/
+.container-1zzFcN .actionButtons-2vEOUh {
+  transition: 250ms ease-out;
+  padding-top: 0px;
+  opacity: 0;
+  height: 0;
+}
+.container-1zzFcN:hover .actionButtons-2vEOUh {
+  padding-top: 4px;
+  height: 36px;
+  opacity: 1;
+}
+/*Hide vc action buttons hover*/
+
+/*Hide user panel buttons*/
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
+  opacity: 0% !important;
+  width: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF {
+  margin-left: auto;
+}
+
+.panels-3wFtMD > .container-YkUktl .flex-2S1XBF:hover > :not(:last-child) {
+  opacity: 100% !important;
+  width: 32px;
+}
+/*Hide user panel buttons*/
+
+/*fix status option spacing*/
+#account-game-activity::before {
+  display: none;
+}
+#account-fake-deafen::before {
+  display: none;
+}
+/*fix status option spacing*/
+
+/*search bar collapse*/
+
+[class*="title-"][class*="container-"]
+  [class*="toolbar-"]
+  [class*="search-"]
+  [class*="searchBar-"] {
+  background: none !important;
+  width: 24px;
+  color: var(--color-text);
+  transition: width 0.2s, padding 0.5s;
+  padding: 0;
+}
+[class*="title-"][class*="container-"]
+  [class*="toolbar-"]
+  [class*="search-"]
+  [class*="searchBar-"]
+  [class*="iconContainer-"] {
+  width: 24px !important;
+  height: 24px;
+  cursor: pointer !important;
+}
+[class*="title-"][class*="container-"] [class*="toolbar-"] [class*="search-"] [class*="searchBar-"],
+[class*="title-"][class*="container-"]
+  [class*="toolbar-"]
+  [class*="search-"]
+  [class*="searchBar-"]
+  svg {
+  color: var(--color-text);
+  width: 24px;
+  height: 24px;
+  padding: 0.5px;
+}
+[class*="toolbar-"] [class*="open-"] [class*="searchBar-"] {
+  width: 300px !important;
+  padding: 0 10px !important;
+}
+[class*="toolbar-"] [class*="open-"] [class*="searchBar-"] svg {
+  color: var(--text-muted);
+  transform: scale(0.8);
+}
+/*search bar collapse*/
+
+/*sticky member list role headers */
+[class*="members"]::before {
+  content: "";
+  position: sticky;
+  display: block;
+  top: 0px;
+  height: 35px;
+  margin-top: -40px;
+  margin-bottom: 10px;
+  background: inherit;
+  box-shadow: var(--elevation-medium);
+  z-index: 2;
+}
+[class*="membersGroup"] {
+  position: sticky;
+  top: -8px;
+  padding-top: 0;
+  padding-bottom: 4px !important;
+  background-color: inherit;
+  z-index: 3;
+  display: flex;
+  align-items: flex-end;
+}
+/*sticky member list role headers */
+
+/*replugged addon cards*/
+.replugged-addon-cards {
+    grid-template-columns: 1fr 1fr;
+}
+.replugged-addon-card span.text-sm-normal-AEQz4v {
+  display: none;
+  transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
+.replugged-addon-card:hover span.text-sm-normal-AEQz4v {
+  display: block;
+  transition: opacity 0.3s ease-out;
+    opacity: 1;
+}
+.replugged-addon-card:not(:hover) div span {
+  margin: "auto auto auto 0";
+  font-size: 22px;
+  transition: font-size 0.3s ease-out;
+}
+.replugged-addon-card div span:not(:first-child) {
+  display: none;
+  transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
+.replugged-addon-card:hover div span:not(:first-child) {
+  display: block;
+  transition: opacity 0.3s ease-out;
+    opacity: 1;
+}
+.replugged-addon-card .replugged-addon-icon {
+  display: none;
+  transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
+.replugged-addon-card:hover .replugged-addon-icon {
+ display: block;
+  transition: opacity 0.3s ease-out;
+    opacity: 1;
+}
+.replugged-addon-card div div:not(div) {
+  display: none;
+  transition: opacity 0.3s ease-out;
+    opacity: 0;
+}
+.replugged-addon-card:hover div div:not(div) {
+  display: block;
+  transition: opacity 0.3s ease-out;
+    opacity: 1;
+}
+/*replugged addon cards*/
+
+/*some other non fluent icons*/
+[d='m2 2c-1.1046 0-2 0.89543-2 2v16c0 1.1046 0.89543 2 2 2h20c1.1046 0 2-0.8954 2-2v-16c0-1.1046-0.8954-2-2-2h-20zm2.4846 13.931c0.55833 0.375 1.2 0.5625 1.925 0.5625 0.96667 0 1.6958-0.3333 2.1875-1l0.2375 0.825h1.475v-4.9h-3.7625v1.625h1.9875v1.075c-0.15833 0.225-0.38333 0.4042-0.675 0.5375-0.28333 0.125-0.59583 0.1875-0.9375 0.1875-0.76667 0-1.3542-0.2458-1.7625-0.7375-0.40833-0.4916-0.6125-1.1916-0.6125-2.1 0-0.9 0.20417-1.5958 0.6125-2.0874 0.40833-0.5 0.99583-0.75 1.7625-0.75 0.84167 0 1.475 0.39166 1.9 1.175l1.4125-1.0124c-0.30003-0.575-0.74586-1.0208-1.3375-1.3375-0.58333-0.31667-1.2458-0.475-1.9875-0.475-0.875 0-1.6292 0.19166-2.2625 0.575-0.625 0.38333-1.1042 0.9125-1.4375 1.5875-0.325 0.67495-0.4875 1.45-0.4875 2.325 0 0.8834 0.15417 1.6667 0.4625 2.35 0.30833 0.675 0.74167 1.2 1.3 1.575zm7.4509 0.3875h1.825v-8.625h-1.825v8.625zm3.5767 0h1.825v-3.275h3.2v-1.65h-3.2v-2.05h3.9375v-1.65h-5.7625v8.625z'] {
+	d: path('M18.75 3.501A3.25 3.25 0 0 1 22 6.751v10.503a3.25 3.25 0 0 1-3.25 3.25H5.25A3.25 3.25 0 0 1 2 17.254V6.75A3.25 3.25 0 0 1 5.25 3.5h13.5Zm0 1.5H5.25a1.75 1.75 0 0 0-1.75 1.75v10.503c0 .966.784 1.75 1.75 1.75h13.5a1.75 1.75 0 0 0 1.75-1.75V6.75A1.75 1.75 0 0 0 18.75 5ZM8.015 8.872c.596 0 1.019.082 1.502.314a.625.625 0 0 1-.541 1.127c-.3-.144-.54-.19-.961-.19-.867 0-1.504.796-1.504 1.872 0 1.077.638 1.876 1.504 1.876.428 0 .791-.18.98-.501L9 13.355v-.734h-.376a.625.625 0 0 1-.618-.532L8 11.997c0-.314.231-.574.533-.619l.092-.006h1.002c.314 0 .573.23.618.532l.007.093-.002 1.547-.006.056-.021.09-.02.055c-.377.89-1.241 1.376-2.188 1.376-1.626 0-2.754-1.413-2.754-3.126 0-1.713 1.127-3.123 2.754-3.123Zm4.614.122c.314 0 .574.232.618.533l.007.092v4.763a.625.625 0 0 1-1.243.092l-.007-.092V9.619c0-.345.28-.625.625-.625Zm2.996 0 1.997.007a.625.625 0 0 1 .088 1.244l-.092.006-1.371-.005V12h1.123c.314 0 .574.232.618.534l.007.092a.625.625 0 0 1-.533.618l-.092.007-1.123-.001v1.115a.625.625 0 0 1-.532.619l-.092.006a.625.625 0 0 1-.619-.532l-.006-.093V9.617a.625.625 0 0 1 .534-.616l.093-.007Z');
+	transform: translate(-6%, -1px) scale(110%);
+}
+
+[d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z"] {
+  d: path(
+    "M10.75 15C11.9926 15 13 16.0074 13 17.25V22.75C13 23.9926 11.9926 25 10.75 25H5.25C4.00736 25 3 23.9926 3 22.75V17.25C3 16.0074 4.00736 15 5.25 15H10.75ZM22.75 15C23.9926 15 25 16.0074 25 17.25V22.75C25 23.9926 23.9926 25 22.75 25H17.25C16.0074 25 15 23.9926 15 22.75V17.25C15 16.0074 16.0074 15 17.25 15H22.75ZM10.75 16.5H5.25C4.83579 16.5 4.5 16.8358 4.5 17.25V22.75C4.5 23.1642 4.83579 23.5 5.25 23.5H10.75C11.1642 23.5 11.5 23.1642 11.5 22.75V17.25C11.5 16.8358 11.1642 16.5 10.75 16.5ZM22.75 16.5H17.25C16.8358 16.5 16.5 16.8358 16.5 17.25V22.75C16.5 23.1642 16.8358 23.5 17.25 23.5H22.75C23.1642 23.5 23.5 23.1642 23.5 22.75V17.25C23.5 16.8358 23.1642 16.5 22.75 16.5ZM10.75 3C11.9926 3 13 4.00736 13 5.25V10.75C13 11.9926 11.9926 13 10.75 13H5.25C4.00736 13 3 11.9926 3 10.75V5.25C3 4.00736 4.00736 3 5.25 3H10.75ZM22.75 3C23.9926 3 25 4.00736 25 5.25V10.75C25 11.9926 23.9926 13 22.75 13H17.25C16.0074 13 15 11.9926 15 10.75V5.25C15 4.00736 16.0074 3 17.25 3H22.75ZM10.75 4.5H5.25C4.83579 4.5 4.5 4.83579 4.5 5.25V10.75C4.5 11.1642 4.83579 11.5 5.25 11.5H10.75C11.1642 11.5 11.5 11.1642 11.5 10.75V5.25C11.5 4.83579 11.1642 4.5 10.75 4.5ZM22.75 4.5H17.25C16.8358 4.5 16.5 4.83579 16.5 5.25V10.75C16.5 11.1642 16.8358 11.5 17.25 11.5H22.75C23.1642 11.5 23.5 11.1642 23.5 10.75V5.25C23.5 4.83579 23.1642 4.5 22.75 4.5Z"
+  );
+  transform: scale(80%);
+}
+[d="M4 18h17v-6H4v6zM4 5v6h17V5H4z"] {
+  d: path(
+    "M2 5.75C2 5.33579 2.33579 5 2.75 5H21.25C21.6642 5 22 5.33579 22 5.75C22 6.16421 21.6642 6.5 21.25 6.5H2.75C2.33579 6.5 2 6.16421 2 5.75ZM2 18.75C2 18.3358 2.33579 18 2.75 18H21.25C21.6642 18 22 18.3358 22 18.75C22 19.1642 21.6642 19.5 21.25 19.5H2.75C2.33579 19.5 2 19.1642 2 18.75ZM2.75 11.5C2.33579 11.5 2 11.8358 2 12.25C2 12.6642 2.33579 13 2.75 13H21.25C21.6642 13 22 12.6642 22 12.25C22 11.8358 21.6642 11.5 21.25 11.5H2.75Z"
+  );
+}
+
+[d="M 2.882812 0.246094 C 1.941406 0.550781 0.519531 2.007812 0.230469 2.953125 C 0.0585938 3.542969 0 7.234375 0 17.652344 L 0 31.554688 L 0.5 32.558594 C 1.117188 33.769531 2.152344 34.5625 3.519531 34.847656 C 4.210938 35 7.078125 35.058594 12.597656 35 C 20.441406 34.941406 20.691406 34.925781 21.441406 34.527344 C 22.347656 34.054688 23.078125 33.3125 23.578125 32.386719 C 23.921875 31.761719 23.941406 30.964844 24 18.085938 C 24.039062 8.503906 24 4.167969 23.847656 3.464844 C 23.558594 2.121094 22.75 1.097656 21.519531 0.492188 L 20.5 0 L 12.039062 0.0195312 C 6.402344 0.0390625 3.328125 0.113281 2.882812 0.246094 Z M 20.382812 14.582031 L 20.382812 22.917969 L 3.652344 22.917969 L 3.652344 6.25 L 20.382812 6.25 Z M 13.789062 27.539062 C 14.5 28.296875 14.597656 29.035156 14.132812 29.925781 C 13.308594 31.496094 10.671875 31.421875 9.902344 29.8125 C 9.539062 29.054688 9.539062 28.730469 9.902344 28.011719 C 10.691406 26.535156 12.632812 26.308594 13.789062 27.539062 Z M 13.789062 27.539062 "] {
+  d: path(
+    "M16.25 4C13.9028 4 12 5.90279 12 8.25V39.75C12 42.0972 13.9028 44 16.25 44H31.75C34.0972 44 36 42.0972 36 39.75V8.25C36 5.90279 34.0972 4 31.75 4H16.25ZM14.5 8.25C14.5 7.2835 15.2835 6.5 16.25 6.5H31.75C32.7165 6.5 33.5 7.2835 33.5 8.25V39.75C33.5 40.7165 32.7165 41.5 31.75 41.5H16.25C15.2835 41.5 14.5 40.7165 14.5 39.75V8.25ZM21.25 35.5C20.5596 35.5 20 36.0596 20 36.75C20 37.4404 20.5596 38 21.25 38H26.75C27.4404 38 28 37.4404 28 36.75C28 36.0596 27.4404 35.5 26.75 35.5H21.25Z"
+  );
+  transform: scale(91%) translate(0%, -15%);
+}
+/*some other non fluent icons*/
