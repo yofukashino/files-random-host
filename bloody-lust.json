@@ -1,0 +1,247 @@
+{
+  "name": "Bloody Lust",
+  "description": "A theme made while missing girlfriend.",
+  "authors": [
+    {
+      "name": "Ahlawat",
+      "id": "1025214794766221384"
+    }
+  ],
+  "semanticColors": {
+      "ACTIVITY_CARD_BACKGROUND": [
+        "#130B19"
+      ],
+      "BACKGROUND_ACCENT": [
+        "#000000"
+      ],
+      "BACKGROUND_MOBILE_PRIMARY": [
+        "#07040B"
+      ],
+      "BACKGROUND_MOBILE_SECONDARY": [
+        "#09050E"
+      ],
+      "BACKGROUND_MODIFIER_ACCENT": [
+        "#110915C4"
+      ],
+      "BACKGROUND_MODIFIER_ACTIVE": [
+        "#180E20D2"
+      ],
+      "BACKGROUND_MODIFIER_HOVER": [
+        "#1A0E27CB"
+      ],
+      "BACKGROUND_MODIFIER_SELECTED": [
+        "#321C4199"
+      ],
+      "BACKGROUND_NESTED_FLOATING": [
+        "#150E29"
+      ],
+      "BACKGROUND_PRIMARY": [
+        "#0C0612"
+      ],
+      "BACKGROUND_SECONDARY": [
+        "#0A0511"
+      ],
+      "BACKGROUND_SECONDARY_ALT": [
+        "#07030E"
+      ],
+      "BACKGROUND_TERTIARY": [
+        "#05010D"
+      ],
+      "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [
+        "#150C2799"
+      ],
+      "BUTTON_OUTLINE_BRAND_BACKGROUND_ACTIVE": [
+        "#40188C"
+      ],
+      "BUTTON_OUTLINE_BRAND_BACKGROUND_HOVER": [
+        "#381989"
+      ],
+      "BUTTON_OUTLINE_BRAND_BORDER": [
+        "#1C014E"
+      ],
+      "BUTTON_OUTLINE_BRAND_BORDER_ACTIVE": [
+        "#3B008D"
+      ],
+      "BUTTON_OUTLINE_BRAND_BORDER_HOVER": [
+        "#3B006B"
+      ],
+      "BUTTON_OUTLINE_BRAND_TEXT": [
+        "#ffffff"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BACKGROUND": [
+        "#ffffff00"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BACKGROUND_ACTIVE": [
+        "#6d6f78"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BACKGROUND_HOVER": [
+        "#27253C"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BORDER": [
+        "#27253C"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BORDER_ACTIVE": [
+        "#6d6f78"
+      ],
+      "BUTTON_OUTLINE_PRIMARY_BORDER_HOVER": [
+        "#27253C"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND": [
+        "#27253C"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND_ACTIVE": [
+        "#232049"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND_DISABLED": [
+        "#27253C"
+      ],
+      "BUTTON_SECONDARY_BACKGROUND_HOVER": [
+        "#1C193A"
+      ],
+      "CHANNEL_ICON": [
+        "#E0E7FD"
+      ],
+      "CHANNEL_TEXT_AREA_PLACEHOLDER": [
+        "#8F94A3"
+      ],
+      "CHANNELS_DEFAULT": [
+        "#B3BFE5"
+      ],
+      "CHANNELTEXTAREA_BACKGROUND": [
+        "#FFFFFF"
+      ],
+      "CHAT_BACKGROUND": [
+        "#05010E"
+      ],
+      "CHAT_BORDER": [
+        "#060215"
+      ],
+      "CHAT_INPUT_CONTAINER_BACKGROUND": [
+        "#FFFFFF"
+      ],
+      "CONTROL_BRAND_FOREGROUND": [
+        "#BF94F7"
+      ],
+      "CONTROL_BRAND_FOREGROUND_NEW": [
+        "#BF94F7"
+      ],
+      "DEPRECATED_CARD_BG": [
+        "#1F0B3F99"
+      ],
+      "DEPRECATED_CARD_EDITABLE_BG": [
+        "#220C404D"
+      ],
+      "DEPRECATED_STORE_BG": [
+        "#110626"
+      ],
+      "DEPRECATED_TEXT_INPUT_BG": [
+        "#1C0A3C"
+      ],
+      "DEPRECATED_TEXT_INPUT_PREFIX": [
+        "#EEE0FD"
+      ],
+      "DISPLAY_BANNER_OVERFLOW_BACKGROUND": [
+        "#28173C80"
+      ],
+      "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": [
+        "#22133BCC"
+      ],
+      "FORUM_POST_TAG_BACKGROUND": [
+        "#22143CE6"
+      ],
+      "HEADER_PRIMARY": [
+        "#EDE0FD"
+      ],
+      "HEADER_SECONDARY": [
+        "#9A8FA3"
+      ],
+      "INPUT_BACKGROUND": [
+        "#FFFFFF"
+      ],
+      "INPUT_PLACEHOLDER_TEXT": [
+        "#998FA3"
+      ],
+      "INTERACTIVE_ACTIVE": [
+        "#FFFFFF"
+      ],
+      "INTERACTIVE_HOVER": [
+        "#C4B3E5"
+      ],
+      "INTERACTIVE_MUTED": [
+        "#271937"
+      ],
+      "INTERACTIVE_NORMAL": [
+        "#F0E0FD"
+      ],
+      "MODAL_BACKGROUND": [
+        "#190A26"
+      ],
+      "MODAL_FOOTER_BACKGROUND": [
+        "#190A26"
+      ],
+      "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+        "#1D0B3B"
+      ],
+      "SPOILER_HIDDEN_BACKGROUND": [
+        "#251538"
+      ],
+      "SPOILER_REVEALED_BACKGROUND": [
+        "#210F30"
+      ],
+      "TEXT_BRAND": [
+        "#A970CD"
+      ],
+      "TEXT_MUTED": [
+        "#9B8FA3"
+      ],
+      "TEXT_NORMAL": [
+        "#EDE0FD"
+      ],
+      "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
+        "#34204680"
+      ]
+  },
+  "rawColors": {
+      "PRIMARY_460": "#0F0815",
+      "PRIMARY_530": "#0A0611",
+      "PRIMARY_600": "#10091B",
+      "PRIMARY_630": "#11091B",
+      "PRIMARY_660": "#140A1E",
+      "PRIMARY_700": "#160A1E",
+      "PRIMARY_800": "#15091E",
+      "BRAND_100": "#FAF2FE",
+      "BRAND_130": "#F2D7FD",
+      "BRAND_160": "#E2B2FA",
+      "BRAND_200": "#D3A1F9",
+      "BRAND_230": "#CD9BF9",
+      "BRAND_260": "#D597F9",
+      "BRAND_300": "#D490F8",
+      "BRAND_330": "#5C378A",
+      "BRAND_345": "#5F347F",
+      "BRAND_360": "#724189",
+      "BRAND_400": "#5C307A",
+      "BRAND_430": "#5E377A",
+      "BRAND_460": "#5A3D78",
+      "BRAND_500": "#634080",
+      "BRAND_530": "#6D3B93",
+      "BRAND_560": "#803DCC",
+      "BRAND_600": "#5315A5",
+      "BRAND_630": "#23123D",
+      "BRAND_660": "#2A1747",
+      "BRAND_700": "#2C1338",
+      "BRAND_730": "#2A143A",
+      "BRAND_760": "#281335",
+      "BRAND_800": "#231131",
+      "BRAND_830": "#1B0E28",
+      "BRAND_860": "#12091B",
+      "BRAND_900": "#0B0511"
+  },
+    "plus": {
+        "version": 0,
+        "unreadBadgeColor": "#0213d4",
+        "mentionLineColor": "#0213d4",
+        "customOverlays": true,
+        "iconpack":""
+    },
+  "spec": 2
+}
