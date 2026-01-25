@@ -1,0 +1,24 @@
+ .utc_folderButtonContent {
+  transform: translateZ(0);
+}
+.utc_bar > .utc_title {
+  pointer-events: unset;
+  padding: 0;
+  justify-content: flex-start;
+  margin-left: 0.5em;
+
+  &::after {
+    color: var(--text-default);
+    position: absolute;
+    top: 4px;
+    padding: 4px 9px 3px;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+    font-family: var(--font-headline);
+    content: "Discord";
+  }
+  > div {
+    display: none;
+  }
+}
