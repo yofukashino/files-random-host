@@ -1,0 +1,11 @@
+---
+layout: null
+---
+
+<pre>
+Index
+
+{% for file in site.static_files %}
+<a href="{{ file.path | relative_url }}">{{ file.path }}</a>
+{% endfor %}
+</pre>
